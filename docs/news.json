@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-11-11T17:54:12.966871+00:00",
+  "generated_at": "2026-11-11T19:22:32.568110+00:00",
   "status": "candidate_collection_only",
   "notice": "Candidate headlines and source metadata only. No article body is republished or AI-generated.",
   "items": [
-    {
-      "id": "1c986f987ef09cd0",
-      "canonical_title": "Noroeste conhece adversários da primeira fase do Paulistão 2027; veja os confrontos",
-      "sources": [
-        {
-          "source": "ge",
-          "title": "Noroeste conhece adversários da primeira fase do Paulistão 2027; veja os confrontos",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/11/11/noroeste-conhece-adversarios-da-primeira-fase-do-paulistao-2027-veja-os-confrontos.ghtml",
-          "published": "Wed, 11 Nov 2026 15:03:57 -0000",
-          "summary": "Noroeste agenda amistoso contra o São Paulo no Alfredão nesta sexta-feira O Noroeste já conhece os adversários que terá pela frente na primeira fase do Campeonato Paulista de 2027. O Norusca enfrentará Corinthians, Bragantino, Primavera, Guarani, Ferroviária, Juventus, São Bernardo e Capivariano nas oito rodadas iniciais da competição. O caminho do Alvirrubro foi definido na noite desta terça-feira, durante o sorteio realizado pela Federação Paulista de Futebol (FPF). O clube de Bauru integrou o Pote D, na posição D4, ao lado de São Bernardo (D1), Juventus (D2) e Ferroviária (D3). A competição",
-          "source_type": "rss_editorial"
-        }
-      ]
-    },
     {
       "id": "b8e03ab49b1a90f1",
       "canonical_title": "Vítor Pereira se arrepende de assumir o Flamengo após saída do Corinthians: \"Erro tremendo\"",
@@ -74,41 +60,28 @@
       ]
     },
     {
-      "id": "baf8892eb7c49a86",
-      "canonical_title": "Gerente do Corinthians não dá prazo para pagar salários e defende jogadores: \"Não fazem cara feia\"",
-      "sources": [
-        {
-          "source": "ge",
-          "title": "Gerente do Corinthians não dá prazo para pagar salários e defende jogadores: \"Não fazem cara feia\"",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/11/gerente-do-corinthians-nao-da-prazo-para-pagar-salarios-e-defende-jogadores-nao-fazem-cara-feia.ghtml",
-          "published": "Wed, 11 Nov 2026 13:15:23 -0000",
-          "summary": "Corinthians trabalha para ter Raniele e Gabriel Paulista contra o Botafogo O gerente de futebol do Corinthians, Julio Cesar, não quis estabelecer um prazo para pagamento do salários atrasados dos jogadores e disse que o clube precisa quitar os transfer bans para fazer contratações na próxima janela de transferências para repor as saídas do elenco. + Siga o canal ge Corinthians no WhatsApp Sem dinheiro suficiente em caixa, a diretoria não pagou os salários deste mês dos funcionários, dos elencos e das comissões técnicas. O time masculino ainda tem três meses de direitos de imagem, férias e prem",
-          "source_type": "rss_editorial"
-        }
-      ]
-    },
-    {
-      "id": "c31f3d9795d17502",
-      "canonical_title": "Veja quem serão os oito adversários do Novorizontino na 1ª fase do Paulistão 2027",
-      "sources": [
-        {
-          "source": "ge",
-          "title": "Veja quem serão os oito adversários do Novorizontino na 1ª fase do Paulistão 2027",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/novorizontino/noticia/2026/11/11/veja-quem-serao-os-oito-adversarios-do-novorizontino-na-1a-fase-do-paulistao-2027.ghtml",
-          "published": "Wed, 11 Nov 2026 13:07:36 -0000",
-          "summary": "Novorizontino vence Fortaleza de virada e garante acesso inédito à Série A O Novorizontino conheceu nesta terça-feira seus adversários na primeira fase do Campeonato Paulista de 2027. O Tigre do Vale enfrentará São Paulo, Corinthians, Portuguesa, Bragantino, Capivariano, Botafogo-SP, São Bernardo e Juventus-SP nas oito rodadas da competição, que mantém o formato de liga única, com confrontos definidos por potes. Veja também + Meia do Palmeiras e ex-São Paulo viram heróis do acesso + Campeonato Paulista de 2027 terá clássicos na primeira fase + Conheça Novo Horizonte, a menor cidade da Série A ",
-          "source_type": "rss_editorial"
-        }
-      ]
-    },
-    {
-      "id": "b4c8fe6593ed9c1b",
-      "canonical_title": "Recuperação de peças-chave e bastidores agitados: diretor detalha momento decisivo do Corinthians",
+      "id": "7c7266f10fe186bd",
+      "canonical_title": "Corinthians amplia jejum contra o São Paulo no Sub-17 após eliminação no Paulista",
       "sources": [
         {
           "source": "Meu Timão",
-          "title": "Recuperação de peças-chave e bastidores agitados: diretor detalha momento decisivo do Corinthians",
-          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543893/recuperacao-de-pecas-chave-e-bastidores-agitados-diretor-detalha-momento-decisivo-do-corinthians",
+          "title": "Corinthians amplia jejum contra o São Paulo no Sub-17 após eliminação no Paulista",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543881/corinthians-amplia-jejum-contra-o-sao-paulo-no-sub-17-apos-eliminacao-no-paulista",
+          "published": "2026-11-11T15:31:00-03:00",
+          "summary": "O empate por 1 a 1 com o São Paulo, na manhã da última terça-feira, fez o Corinthians aumentar seu período sem vitórias diante do rival na categoria.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "47933c089ba45cc5",
+      "canonical_title": "Recuperação de peças-chave e bastidores agitados: gerente detalha momento decisivo do Corinthians",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Recuperação de peças-chave e bastidores agitados: gerente detalha momento decisivo do Corinthians",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543893/recuperacao-de-pecas-chave-e-bastidores-agitados-gerente-detalha-momento-decisivo-do-corinthians",
           "published": "2026-11-11T14:35:00-03:00",
           "summary": "Em entrevista após o evento de lançamento do Paulistão 2027, o gerente de futebol Julio Cesar comentou a evolução física de Garro e Memphis, além de esclarecer a polêmica do vídeo vazado no Timão.",
           "source_type": "editorial_news",
@@ -186,6 +159,21 @@
           "url": "https://www.meutimao.com.br/noticias-do-corinthians/543909/comissao-de-etica-do-corinthians-declina-denuncia-de-superintendente-contra-ex-diretor",
           "published": "2026-11-11T11:24:00-03:00",
           "summary": "A Comissão de Ética do Corinthians declinou da análise de uma representação apresentada pelo superintendente administrativo Ricardo Okabe contra Marcelo Munhoes, ex-diretor de tecnologia do clube.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "ca52785cb4deeab5",
+      "canonical_title": "Corinthians inicia venda de ingressos para duelo contra Osasco Basquete pelo NBB",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians inicia venda de ingressos para duelo contra Osasco Basquete pelo NBB",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543904/corinthians-inicia-venda-de-ingressos-para-duelo-contra-osasco-basquete-pelo-nbb",
+          "published": "2026-11-11T11:03:00-03:00",
+          "summary": "Na manhã desta quarta-feira, o Corinthians iniciou a venda dos ingressos para o duelo diante do Osasco, pela sétima rodada da primeira fase do Novo Basquete Brasil (NBB) 2026/27.",
           "source_type": "editorial_news",
           "author": ""
         }
@@ -441,21 +429,6 @@
           "url": "https://www.meutimao.com.br/noticias-do-corinthians/543863/corinthians-divulga-informacoes-de-venda-de-ingressos-para-a-partida-contra-o-botafogo",
           "published": "2026-11-10T17:35:00-03:00",
           "summary": "O Corinthians divulgou, nesta terça-feira, o cronograma da venda de ingressos para a partida contra o Botafogo, pela 35ª rodada do Campeonato Brasileiro.",
-          "source_type": "editorial_news",
-          "author": ""
-        }
-      ]
-    },
-    {
-      "id": "ffd41b0b5d7cfc23",
-      "canonical_title": "Auxiliar do Corinthians comenta planejamento para Copinha e prega paciência por promessas",
-      "sources": [
-        {
-          "source": "Meu Timão",
-          "title": "Auxiliar do Corinthians comenta planejamento para Copinha e prega paciência por promessas",
-          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543765/auxiliar-do-corinthians-comenta-planejamento-para-copinha-e-prega-paciencia-por-promessas",
-          "published": "2026-11-10T17:01:00-03:00",
-          "summary": "Em entrevista ao Meu Timão, o auxiliar Gabriel Amaral comentou sobre o planejamento para a Copinha e pregou paciência à torcida quanto ao tempo de maturação das promessas da base alvinegra.",
           "source_type": "editorial_news",
           "author": ""
         }
