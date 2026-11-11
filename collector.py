@@ -1,45 +1,6 @@
-import json, re, html, hashlib
-from datetime import datetime, timezone
-from difflib import SequenceMatcher
-from urllib.parse import urljoin, urlparse
-from pathlib import Path
-import requests, feedparser
-from bs4 import BeautifulSoup
+        return is_ge and corinthians_section and has_team_term
 
-UA = "InformaFielBot/0.1 (news aggregation; contact: configure-in-repo)"
-MEUTIMAO = "https://www.meutimao.com.br/noticias-do-corinthians"
-GE_RSS = "https://pox.globo.com/rss/ge/"
-OUT = "docs/news.json"
-HEADERS = {"User-Agent": UA}
-
-def clean(s):
-    return re.sub(r"\s+", " ", html.unescape(s or "")).strip()
-
-def key(s):
-    s = clean(s).lower()
-    s = re.sub(r"[^a-z0-9áéíóúâêôãõç ]", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
-
-def similarity(a, b):
-    aa, bb = key(a), key(b)
-    if not aa or not bb:
-        return 0.0
-    ta, tb = set(aa.split()), set(bb.split())
-    overlap = len(ta & tb) / max(1, len(ta | tb))
-    return max(overlap, SequenceMatcher(None, aa, bb).ratio() * 0.85)
-
-def is_corinthians(title, summary="", source=""):
-    """
-    Conservative filter:
-    - Meu Timão items are already restricted to the site's editorial news URL path.
-    - ge items must explicitly mention Corinthians/Timão/Brabas in the headline.
-    This intentionally prefers missing a borderline item over importing unrelated football news.
-    """
-    t = key(title)
-    if source == "Meu Timão":
-        return bool(t)
-    explicit_terms = ["corinthians", "timão", "timao", "brabas", "brabinhas"]
-    return any(re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", t) for term in explicit_terms)
+    return False
 
 def get(url):
     r = requests.get(url, headers=HEADERS, timeout=25)
@@ -92,7 +53,7 @@ def parse_ge():
     for entry in feed.entries[:150]:
         title = clean(entry.get("title", ""))
         summary = clean(BeautifulSoup(entry.get("summary", ""), "html.parser").get_text(" ", strip=True))
-        if not is_corinthians(title, summary, "ge"):
+        if not is_corinthians(title, summary, "ge", entry.get("link", "")):
             continue
         out.append({
             "source": "ge",
@@ -131,7 +92,7 @@ def main():
             candidates.extend(fn())
         except Exception as e:
             errors.append({"source": name, "error": str(e)[:240]})
-    candidates = [x for x in candidates if is_corinthians(x["title"], x.get("summary", ""), x.get("source", ""))]
+    candidates = [x for x in candidates if is_corinthians(x["title"], x.get("summary", ""), x.get("source", ""), x.get("url", ""))]
     groups = dedupe(candidates)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
