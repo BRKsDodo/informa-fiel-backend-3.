@@ -21,14 +21,25 @@ def key(s):
     return re.sub(r"\s+", " ", s).strip()
 
 def similarity(a, b):
-    return SequenceMatcher(None, key(a), key(b)).ratio()
+    aa, bb = key(a), key(b)
+    if not aa or not bb:
+        return 0.0
+    ta, tb = set(aa.split()), set(bb.split())
+    overlap = len(ta & tb) / max(1, len(ta | tb))
+    return max(overlap, SequenceMatcher(None, aa, bb).ratio() * 0.85)
 
-def is_corinthians(title, summary=""):
-    t = key(title + " " + summary)
-    terms = ["corinthians", "timão", "timao", "brabas", "brabinhas",
-             "neo química arena", "neo quimica arena", "parque são jorge",
-             "parque sao jorge", "fiel torcedor"]
-    return any(x in t for x in terms)
+def is_corinthians(title, summary="", source=""):
+    """
+    Conservative filter:
+    - Meu Timão items are already restricted to the site's editorial news URL path.
+    - ge items must explicitly mention Corinthians/Timão/Brabas in the headline.
+    This intentionally prefers missing a borderline item over importing unrelated football news.
+    """
+    t = key(title)
+    if source == "Meu Timão":
+        return bool(t)
+    explicit_terms = ["corinthians", "timão", "timao", "brabas", "brabinhas"]
+    return any(re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", t) for term in explicit_terms)
 
 def get(url):
     r = requests.get(url, headers=HEADERS, timeout=25)
@@ -81,7 +92,7 @@ def parse_ge():
     for entry in feed.entries[:150]:
         title = clean(entry.get("title", ""))
         summary = clean(BeautifulSoup(entry.get("summary", ""), "html.parser").get_text(" ", strip=True))
-        if not is_corinthians(title, summary):
+        if not is_corinthians(title, summary, "ge"):
             continue
         out.append({
             "source": "ge",
@@ -120,7 +131,7 @@ def main():
             candidates.extend(fn())
         except Exception as e:
             errors.append({"source": name, "error": str(e)[:240]})
-    candidates = [x for x in candidates if is_corinthians(x["title"], x.get("summary", ""))]
+    candidates = [x for x in candidates if is_corinthians(x["title"], x.get("summary", ""), x.get("source", ""))]
     groups = dedupe(candidates)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
