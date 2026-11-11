@@ -1,10 +1,14 @@
-
 name: Update Informa Fiel news candidates
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
+
+# Prevent two scheduled/manual runs from writing docs/news.json at the same time.
+concurrency:
+  group: informa-fiel-news-main
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -14,16 +18,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - run: pip install -r requirements.txt
       - run: python collector.py
-      - name: Commit updated news JSON
+
+      - name: Commit and push updated news JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                    git add docs/news.json
-          git diff --cached --quiet || git commit -m "Update news candidates"
-          git pull --rebase origin main
-          git push
+          git add docs/news.json
+          if git diff --cached --quiet; then
+            echo "No news changes to commit."
+            exit 0
+          fi
+          git commit -m "Update news candidates"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
