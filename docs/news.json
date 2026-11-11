@@ -1,7 +1,466 @@
 {
-  "generated_at": null,
-  "status": "not_run_yet",
-  "notice": "Run the GitHub Actions workflow to collect candidate headlines.",
-  "items": [],
+  "generated_at": "2026-11-11T17:54:12.966871+00:00",
+  "status": "candidate_collection_only",
+  "notice": "Candidate headlines and source metadata only. No article body is republished or AI-generated.",
+  "items": [
+    {
+      "id": "1c986f987ef09cd0",
+      "canonical_title": "Noroeste conhece adversários da primeira fase do Paulistão 2027; veja os confrontos",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Noroeste conhece adversários da primeira fase do Paulistão 2027; veja os confrontos",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/11/11/noroeste-conhece-adversarios-da-primeira-fase-do-paulistao-2027-veja-os-confrontos.ghtml",
+          "published": "Wed, 11 Nov 2026 15:03:57 -0000",
+          "summary": "Noroeste agenda amistoso contra o São Paulo no Alfredão nesta sexta-feira O Noroeste já conhece os adversários que terá pela frente na primeira fase do Campeonato Paulista de 2027. O Norusca enfrentará Corinthians, Bragantino, Primavera, Guarani, Ferroviária, Juventus, São Bernardo e Capivariano nas oito rodadas iniciais da competição. O caminho do Alvirrubro foi definido na noite desta terça-feira, durante o sorteio realizado pela Federação Paulista de Futebol (FPF). O clube de Bauru integrou o Pote D, na posição D4, ao lado de São Bernardo (D1), Juventus (D2) e Ferroviária (D3). A competição",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "b8e03ab49b1a90f1",
+      "canonical_title": "Vítor Pereira se arrepende de assumir o Flamengo após saída do Corinthians: \"Erro tremendo\"",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Vítor Pereira se arrepende de assumir o Flamengo após saída do Corinthians: \"Erro tremendo\"",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/11/vitor-pereira-se-arrepende-de-assumir-o-flamengo-apos-saida-do-corinthians-erro-tremendo.ghtml",
+          "published": "Wed, 11 Nov 2026 14:43:14 -0000",
+          "summary": "Pedro em alta, Danilo mascarado: Flamengo treina de olho no Brasileirão O técnico português Vítor Pereira quebrou o silêncio, voltou a comentar sua passagem pelo Flamengo, em 2023, e reconheceu que a decisão de assumir o clube rubro-negro foi um \"erro tremendo\". Na época, o treinador foi alvo de críticas por deixar o Corinthians e, pouco mais de um mês depois, aceitar a proposta do clube carioca. + Cristiane volta à final da Copa do Brasil em busca de maior conquista no Flamengo: \"Pode ser a última\" A polêmica começou quando Vítor Pereira deixou o Corinthians, em novembro de 2022, alegando que",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "407f3120525e6abf",
+      "canonical_title": "Revelado no Corinthians, volante Riquelme é contratado pelo Confiança visando próxima temporada",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Revelado no Corinthians, volante Riquelme é contratado pelo Confiança visando próxima temporada",
+          "url": "https://ge.globo.com/se/futebol/times/confianca/noticia/2026/11/11/revelado-no-corinthians-volante-riquelme-e-contratado-pelo-confianca-visando-proxima-temporada.ghtml",
+          "published": "Wed, 11 Nov 2026 14:18:29 -0000",
+          "summary": "O Confiança anunciou o 16º reforço para a temporada 2027. O contratado atua no meio de campo, é volante e foi revelado nas categorias de base do Corinthians. Trata-se de Riquelme, de 24 anos. Depois de ser formado no Timão, ele teve experiência internacional atuando pelo STK Samorin, da Eslováquia, e pelo Gyori ETO, da Hungria. Riquelme foi revelado pelo Corinthians Rodrigo Gazzanel/Ag. Corinthians Riquelme jogou recentemente a Série A2 do Campeonato Paulista pela equipe do Sertãozinho, agora, vai reforçar o Dragão na temporada com muitos desafios para os azulinos. A equipe proletária terá cal",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "925e2417a241133b",
+      "canonical_title": "Justiça manda Corinthians quitar R$ 10 milhões e ameaça revogar pagamento centralizado de dívida",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Justiça manda Corinthians quitar R$ 10 milhões e ameaça revogar pagamento centralizado de dívida",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/11/justica-manda-corinthians-quitar-r-10-milhoes-e-ameaca-revogar-pagamento-centralizado-de-divida.ghtml",
+          "published": "Wed, 11 Nov 2026 14:09:03 -0000",
+          "summary": "Corinthians trabalha para ter Raniele e Gabriel Paulista contra o Botafogo A Justiça deu um ultimato ao Corinthians: pagar em até cinco dias os R$ 10,14 milhões que deixaram de ser pagos em duas parcelas do Regime de Centralização de Execuções (RCE), sob pena de revogação da cobrança centralizada. + Siga o canal ge Corinthians no WhatsApp A juíza Tainá Maria Leonardo de Oliveira, da 2ª Vara da Falências e Recuperações Judiciais de São Paulo, estabeleceu o prazo porque o Corinthians pagou R$ 2.499.657,51 a menos no rateio de julho e R$ 7.641.299,28 a menos em agosto, totalizando R$ 10.140.956,7",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "745acf5f55ae2103",
+      "canonical_title": "Como golpe de R$ 32 milhões fez ex-Corinthians, São Paulo e Seleção abandonar a vida pública",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Como golpe de R$ 32 milhões fez ex-Corinthians, São Paulo e Seleção abandonar a vida pública",
+          "url": "https://ge.globo.com/sp/futebol/noticia/2026/11/11/como-golpe-de-r-32-milhoes-fez-ex-corinthians-sao-paulo-e-selecao-abandonar-a-vida-publica.ghtml",
+          "published": "Wed, 11 Nov 2026 14:00:01 -0000",
+          "summary": "Como golpe de R$ 32 milhões fez ex-jogador abandonar a vida pública Jucilei da Silva nunca foi um jogador midiático. Nascido em São Gonçalo-RJ, construiu uma carreira de relativo sucesso, vestiu as camisas de Corinthians e São Paulo, passou pela Seleção e por alguns dos mercados mais ricos do futebol mundial, como China, Rússia e Emirados Árabes. Ao longo dos anos, acumulou conquistas, experiências e dinheiro que lhe permitiram olhar para o futuro com tranquilidade. No entanto, um golpe de mais de R$ 32 milhões mudou um pouco esse cenário. São Paulo foi o último clube grande da carreira de Juc",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "baf8892eb7c49a86",
+      "canonical_title": "Gerente do Corinthians não dá prazo para pagar salários e defende jogadores: \"Não fazem cara feia\"",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Gerente do Corinthians não dá prazo para pagar salários e defende jogadores: \"Não fazem cara feia\"",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/11/gerente-do-corinthians-nao-da-prazo-para-pagar-salarios-e-defende-jogadores-nao-fazem-cara-feia.ghtml",
+          "published": "Wed, 11 Nov 2026 13:15:23 -0000",
+          "summary": "Corinthians trabalha para ter Raniele e Gabriel Paulista contra o Botafogo O gerente de futebol do Corinthians, Julio Cesar, não quis estabelecer um prazo para pagamento do salários atrasados dos jogadores e disse que o clube precisa quitar os transfer bans para fazer contratações na próxima janela de transferências para repor as saídas do elenco. + Siga o canal ge Corinthians no WhatsApp Sem dinheiro suficiente em caixa, a diretoria não pagou os salários deste mês dos funcionários, dos elencos e das comissões técnicas. O time masculino ainda tem três meses de direitos de imagem, férias e prem",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "c31f3d9795d17502",
+      "canonical_title": "Veja quem serão os oito adversários do Novorizontino na 1ª fase do Paulistão 2027",
+      "sources": [
+        {
+          "source": "ge",
+          "title": "Veja quem serão os oito adversários do Novorizontino na 1ª fase do Paulistão 2027",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/novorizontino/noticia/2026/11/11/veja-quem-serao-os-oito-adversarios-do-novorizontino-na-1a-fase-do-paulistao-2027.ghtml",
+          "published": "Wed, 11 Nov 2026 13:07:36 -0000",
+          "summary": "Novorizontino vence Fortaleza de virada e garante acesso inédito à Série A O Novorizontino conheceu nesta terça-feira seus adversários na primeira fase do Campeonato Paulista de 2027. O Tigre do Vale enfrentará São Paulo, Corinthians, Portuguesa, Bragantino, Capivariano, Botafogo-SP, São Bernardo e Juventus-SP nas oito rodadas da competição, que mantém o formato de liga única, com confrontos definidos por potes. Veja também + Meia do Palmeiras e ex-São Paulo viram heróis do acesso + Campeonato Paulista de 2027 terá clássicos na primeira fase + Conheça Novo Horizonte, a menor cidade da Série A ",
+          "source_type": "rss_editorial"
+        }
+      ]
+    },
+    {
+      "id": "b4c8fe6593ed9c1b",
+      "canonical_title": "Recuperação de peças-chave e bastidores agitados: diretor detalha momento decisivo do Corinthians",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Recuperação de peças-chave e bastidores agitados: diretor detalha momento decisivo do Corinthians",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543893/recuperacao-de-pecas-chave-e-bastidores-agitados-diretor-detalha-momento-decisivo-do-corinthians",
+          "published": "2026-11-11T14:35:00-03:00",
+          "summary": "Em entrevista após o evento de lançamento do Paulistão 2027, o gerente de futebol Julio Cesar comentou a evolução física de Garro e Memphis, além de esclarecer a polêmica do vídeo vazado no Timão.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "5bf111ce4226d303",
+      "canonical_title": "Corinthians divulga bastidores de classificação inédita à final do Paulista Sub-20",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians divulga bastidores de classificação inédita à final do Paulista Sub-20",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543913/corinthians-tv-divulga-bastidores-de-classificacao-inedita-a-final-do-paulista-sub-20",
+          "published": "2026-11-11T13:31:00-03:00",
+          "summary": "Na manhã desta quarta, a Corinthians TV divulgou os bastidores da eliminatória diante do Palmeiras, pela semifinal do Campeonato Paulista Feminino Sub-20.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "ec04f589acc36e72",
+      "canonical_title": "MP das Bets é prorrogada por mais 60 dias; saiba como isso afeta o Corinthians",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "MP das Bets é prorrogada por mais 60 dias; saiba como isso afeta o Corinthians",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543914/mp-das-bets-e-prorrogada-por-mais-60-dias-saiba-como-isso-afeta-o-corinthians",
+          "published": "2026-11-11T13:06:00-03:00",
+          "summary": "A MP das Bets, que proibiu a vigência das apostas esportivas no Brasil, foi prorrogada para mais 60 dias e gerou nova indefinição em relação ao patrocinador máster do Corinthians em 2027.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "39c9e8277fd981cf",
+      "canonical_title": "Goleira do Corinthians celebra retorno à Seleção Brasileira e destaca boa fase",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Goleira do Corinthians celebra retorno à Seleção Brasileira e destaca boa fase",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543879/goleira-do-corinthians-celebra-retorno-a-selecao-brasileira-e-destaca-boa-fase",
+          "published": "2026-11-11T12:32:00-03:00",
+          "summary": "Depois de ficar de fora da lista de outubro, a jogadora de 32 anos celebrou o retorno e destacou a motivação para voltar a defender o Brasil.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "07d5f86182751b7c",
+      "canonical_title": "Corinthians inicia venda de ingressos para decisão contra a Liga São Caetano pelo Paulista de Futsal",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians inicia venda de ingressos para decisão contra a Liga São Caetano pelo Paulista de Futsal",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543911/corinthians-inicia-venda-de-ingressos-para-decisao-contra-a-liga-sao-caetano-pelo-paulista-de-futsal",
+          "published": "2026-11-11T11:47:00-03:00",
+          "summary": "Na manhã desta quarta-feira, o Corinthians iniciou a venda dos ingressos para o duelo diante da Liga São Caetano, pelo jogo de ida da semifinal do Campeonato Paulista de Futsal.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "05ab51dc85dd88c2",
+      "canonical_title": "Comissão de Ética do Corinthians declina denúncia de superintendente contra ex-diretor",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Comissão de Ética do Corinthians declina denúncia de superintendente contra ex-diretor",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543909/comissao-de-etica-do-corinthians-declina-denuncia-de-superintendente-contra-ex-diretor",
+          "published": "2026-11-11T11:24:00-03:00",
+          "summary": "A Comissão de Ética do Corinthians declinou da análise de uma representação apresentada pelo superintendente administrativo Ricardo Okabe contra Marcelo Munhoes, ex-diretor de tecnologia do clube.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "898631f2debf5957",
+      "canonical_title": "Sub-17 do Corinthians encerra Paulista com meio-campista líder e promessa em segundo; veja a lista",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Sub-17 do Corinthians encerra Paulista com meio-campista líder e promessa em segundo; veja a lista",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543857/sub-17-do-corinthians-encerra-paulista-com-meio-campista-lider-e-promessa-em-segundo-veja-a-lista",
+          "published": "2026-11-11T10:29:00-03:00",
+          "summary": "Na manhã desta terça-feira, o Corinthians empatou com o São Paulo, por 1 a 1. No Estádio Marcelo Portugal, o Timãozinho marcou o gol com Kayque Dallaqua, que chegou aos dez gols.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "935a5fd22e49431e",
+      "canonical_title": "Títulos na base e vasta formação acadêmica: conheça Júlia Passero, técnica interina do Corinthians",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Títulos na base e vasta formação acadêmica: conheça Júlia Passero, técnica interina do Corinthians",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543853/titulos-na-base-e-vasta-formacao-academica-conheca-julia-passero-tecnica-interina-do-corinthians",
+          "published": "2026-11-11T09:31:00-03:00",
+          "summary": "O Corinthians anunciou que Júlia Passero, técnica da equipe Sub-20 das Brabas, assumirá o elenco profissional de maneira interina. O Meu Timão fez um resumo da careira da profissional.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "400c4edd59864bc8",
+      "canonical_title": "Zagueiro do Corinthians Sub-17 será julgado pelo STJD e pode perder decisão da Supercopa",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Zagueiro do Corinthians Sub-17 será julgado pelo STJD e pode perder decisão da Supercopa",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543899/zagueiro-do-corinthians-sub-17-sera-julgado-pelo-stjd-e-pode-perder-decisao-da-supercopa",
+          "published": "2026-11-11T08:42:00-03:00",
+          "summary": "Na próxima quinta-feira, Ronaldo Henrique, zagueiro do Sub-17 do Corinthians, será julgado pelo STJD por sua expulsão no duelo contra o Santos, pelo Brasileirão da categoria, no dia 30 de junho.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "bdde3fb2abf2091e",
+      "canonical_title": "Últimas do Corinthians: adversários do Paulista 2027, eliminação no Sub-17 e técnica das Brabas",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Últimas do Corinthians: adversários do Paulista 2027, eliminação no Sub-17 e técnica das Brabas",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543887/ultimas-do-corinthians-adversarios-do-paulista-2027-eliminacao-no-sub-17-e-tecnica-das-brabas",
+          "published": "2026-11-11T07:30:00-03:00",
+          "summary": "A terça-feira do Corinthians contou com a definição dos adversários no Campeonato Paulista de 2027, eliminação no Estadual Sub-17 e nova treinadora interina das Brabas.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "dc636fa23f12f0d8",
+      "canonical_title": "Gerente do Corinthians reclama da arbitragem e nega movimento para 'livrar' clube do rebaixamento",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Gerente do Corinthians reclama da arbitragem e nega movimento para 'livrar' clube do rebaixamento",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543886/gerente-do-corinthians-reclama-da-arbitragem-e-nega-movimento-para-livrar-clube-do-rebaixamento",
+          "published": "2026-11-10T22:52:00-03:00",
+          "summary": "Em meio à luta contra o rebaixamento, o Corinthians também enfrenta pressões dos adversários fora dos gramados.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "af5a4b4fb5e1f39c",
+      "canonical_title": "Gerente de futebol do Corinthians admite preocupação com atrasos salariais e risco de rescisões",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Gerente de futebol do Corinthians admite preocupação com atrasos salariais e risco de rescisões",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543885/gerente-de-futebol-do-corinthians-admite-preocupacao-com-atrasos-salariais-e-risco-de-rescisoes",
+          "published": "2026-11-10T22:47:00-03:00",
+          "summary": "A diretoria do Corinthians tem receio da possibilidade de rescisão indireta dos atletas em meio aos atrasos nos direitos de imagem, mas tem trabalhado para resolver as pendências o quanto antes.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "59d3cebffce11fce",
+      "canonical_title": "Zagueira do Corinthians participa de painel sobre esporte em evento de economia criativa periférica",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Zagueira do Corinthians participa de painel sobre esporte em evento de economia criativa periférica",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543880/zagueira-do-corinthians-participa-de-painel-sobre-esporte-em-evento-de-economia-criativa-periferica",
+          "published": "2026-11-10T22:05:00-03:00",
+          "summary": "A zagueira do Corinthians, Thaís Regina, será uma das participantes do painel “Esporte, Rua e Futuro”, da primeira edição do Perifa Summit, evento voltado à economia criativa das periferias.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "2c6f0e6be142e591",
+      "canonical_title": "Memphis acumula dez partidas com o Corinthians desde renovação; veja números",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Memphis acumula dez partidas com o Corinthians desde renovação; veja números",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543846/memphis-acumula-dez-partidas-com-o-corinthians-desde-renovacao-veja-numeros",
+          "published": "2026-11-10T21:04:00-03:00",
+          "summary": "Memphis Depay atravessa um momento negativo no Corinthians. Desde o imbróglio envolvendo sua renovação contratual, o holandês disputou dez jogos e teve participação discreta no ataque alvinegro.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "663be7105f3e4eed",
+      "canonical_title": "Corinthians mantém retrospecto negativo contra o São Paulo em mata-matas do Sub-17",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians mantém retrospecto negativo contra o São Paulo em mata-matas do Sub-17",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543835/corinthians-mantem-retrospecto-negativo-contra-o-sao-paulo-em-mata-matas-do-sub-17",
+          "published": "2026-11-10T20:05:00-03:00",
+          "summary": "Com a queda no Campeonato Paulista Sub-17 nesta terça-feira, o Corinthians manteve o retrospecto negativo da equipe alvinegra em confrontos eliminatórios contra o São Paulo na categoria.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "2803e26b96beec16",
+      "canonical_title": "Meu Timão e veículos parceiros promovem último debate presidencial antes da eleição do Corinthians",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Meu Timão e veículos parceiros promovem último debate presidencial antes da eleição do Corinthians",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543852/meu-timao-e-veiculos-parceiros-promovem-ultimo-debate-presidencial-antes-da-eleicao-do-corinthians",
+          "published": "2026-11-10T19:47:00-03:00",
+          "summary": "O Meu Timão realizará, junto com portais parceiros, o último debate entre os candidatos à presidência do Corinthians antes da eleição do clube, marcada para o dia 28 de novembro.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "1749e05df062740d",
+      "canonical_title": "Corinthians conhece adversários do Campeonato Paulista 2027; confira",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians conhece adversários do Campeonato Paulista 2027; confira",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543833/corinthians-conhece-adversarios-do-campeonato-paulista-2027-confira",
+          "published": "2026-11-10T19:10:00-03:00",
+          "summary": "O Corinthians conheceu, na noite desta terça-feira, os adversários do Campeonato Paulista 2027.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "7d03645c567bd39f",
+      "canonical_title": "Corinthians promove evento sobre protagonismo negro e resgate histórico do clube",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians promove evento sobre protagonismo negro e resgate histórico do clube",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543847/corinthians-promove-evento-sobre-protagonismo-negro-e-resgate-historico-do-clube",
+          "published": "2026-11-10T19:03:00-03:00",
+          "summary": "O Corinthians realizará, no dia 20 de novembro, um evento especial dedicado à valorização do protagonismo negro e ao resgate da memória histórica do clube.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "31f6dbb2d7e1a7c4",
+      "canonical_title": "Veja os resultados da primeira enquete do Meu Timão sobre a eleição para presidente do Corinthians",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Veja os resultados da primeira enquete do Meu Timão sobre a eleição para presidente do Corinthians",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543854/veja-os-resultados-da-primeira-enquete-do-meu-timao-sobre-a-eleicao-para-presidente-do-corinthians",
+          "published": "2026-11-10T18:32:00-03:00",
+          "summary": "Com a eleição presidencial do Corinthians cada vez mais próxima, o Meu Timão promoverá uma série de enquetes sobre o pleito, marcado para o dia 28 de novembro.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "65873d2409ef9f15",
+      "canonical_title": "Dupla inicia transição física e pode reforçar o Corinthians após a Data Fifa",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Dupla inicia transição física e pode reforçar o Corinthians após a Data Fifa",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543869/dupla-inicia-transicao-fisica-e-pode-reforcar-o-corinthians-apos-a-data-fifa",
+          "published": "2026-11-10T18:16:00-03:00",
+          "summary": "O zagueiro Gabriel Paulista e o volante Raniele iniciaram a transição física no treinamento desta terça-feira.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "54421cf900a22be5",
+      "canonical_title": "Corinthians conhece detalhes dos duelos contra o Red Bull Bragantino pelo Paulistão Feminino",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians conhece detalhes dos duelos contra o Red Bull Bragantino pelo Paulistão Feminino",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543868/corinthians-conhece-detalhes-dos-duelos-contra-o-red-bull-bragantino-pelo-paulistao-feminino",
+          "published": "2026-11-10T18:09:00-03:00",
+          "summary": "O Corinthians conheceu, na tarde desta terça-feira, todos os detalhes dos confrontos de ida e volta do play-in do Campeonato Paulista Feminino.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "fb7070119a96ed09",
+      "canonical_title": "Corinthians perde invencibilidade em Dérbis no Sub-20 durante classificação no Paulista Feminino",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians perde invencibilidade em Dérbis no Sub-20 durante classificação no Paulista Feminino",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543834/corinthians-perde-invencibilidade-em-derbis-no-sub-20-durante-classificacao-no-paulista-feminino",
+          "published": "2026-11-10T18:05:00-03:00",
+          "summary": "Apesar de avançar à decisão do Campeonato Paulista Feminino Sub-20, o Corinthians perdeu a invencibilidade diante do Palmeiras na categoria durante decisão disputada na Fazendinha.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "a8be83ea800d15ce",
+      "canonical_title": "Corinthians divulga informações de venda de ingressos para a partida contra o Botafogo",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Corinthians divulga informações de venda de ingressos para a partida contra o Botafogo",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543863/corinthians-divulga-informacoes-de-venda-de-ingressos-para-a-partida-contra-o-botafogo",
+          "published": "2026-11-10T17:35:00-03:00",
+          "summary": "O Corinthians divulgou, nesta terça-feira, o cronograma da venda de ingressos para a partida contra o Botafogo, pela 35ª rodada do Campeonato Brasileiro.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "ffd41b0b5d7cfc23",
+      "canonical_title": "Auxiliar do Corinthians comenta planejamento para Copinha e prega paciência por promessas",
+      "sources": [
+        {
+          "source": "Meu Timão",
+          "title": "Auxiliar do Corinthians comenta planejamento para Copinha e prega paciência por promessas",
+          "url": "https://www.meutimao.com.br/noticias-do-corinthians/543765/auxiliar-do-corinthians-comenta-planejamento-para-copinha-e-prega-paciencia-por-promessas",
+          "published": "2026-11-10T17:01:00-03:00",
+          "summary": "Em entrevista ao Meu Timão, o auxiliar Gabriel Amaral comentou sobre o planejamento para a Copinha e pregou paciência à torcida quanto ao tempo de maturação das promessas da base alvinegra.",
+          "source_type": "editorial_news",
+          "author": ""
+        }
+      ]
+    }
+  ],
   "errors": []
 }
