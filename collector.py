@@ -1,3 +1,67 @@
+import json, re, html, hashlib
+from datetime import datetime, timezone
+from difflib import SequenceMatcher
+from urllib.parse import urljoin, urlparse
+from pathlib import Path
+import requests, feedparser
+from bs4 import BeautifulSoup
+
+UA = "InformaFielBot/0.1 (news aggregation; contact: configure-in-repo)"
+MEUTIMAO = "https://www.meutimao.com.br/noticias-do-corinthians"
+GE_RSS = "https://pox.globo.com/rss/ge/"
+OUT = "docs/news.json"
+HEADERS = {"User-Agent": UA}
+
+def clean(s):
+    return re.sub(r"\s+", " ", html.unescape(s or "")).strip()
+
+def key(s):
+    s = clean(s).lower()
+    s = re.sub(r"[^a-z0-9áéíóúâêôãõç ]", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+def similarity(a, b):
+    aa, bb = key(a), key(b)
+    if not aa or not bb:
+        return 0.0
+    ta, tb = set(aa.split()), set(bb.split())
+    overlap = len(ta & tb) / max(1, len(ta | tb))
+    return max(overlap, SequenceMatcher(None, aa, bb).ratio() * 0.85)
+
+def is_corinthians(title, summary="", source="", url=""):
+    """
+    Strict relevance filter:
+    - Meu Timão: only editorial /noticias-do-corinthians/<id>/ URLs.
+    - ge: title must mention Corinthians/Timão/Brabas AND URL must be in
+      Corinthians' team section. A historical mention in another club's story
+      is not enough.
+    """
+    t = key(title)
+    explicit_terms = ["corinthians", "timão", "timao", "brabas", "brabinhas"]
+    has_team_term = any(
+        re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", t)
+        for term in explicit_terms
+    )
+
+    parsed = urlparse(url or "")
+    path = parsed.path.lower()
+    host = parsed.netloc.lower()
+
+    if source == "Meu Timão":
+        return (
+            host in {"www.meutimao.com.br", "meutimao.com.br"}
+            and re.search(r"/noticias-do-corinthians/\d+/", path) is not None
+            and bool(t)
+        )
+
+    if source == "ge":
+        is_ge = host in {"ge.globo.com", "www.ge.globo.com"}
+        corinthians_section = any(marker in path for marker in (
+            "/times/corinthians/",
+            "/times/corinthians-feminino/",
+            "/times/corinthians-sub-",
+            "/corinthians/"
+        ))
         return is_ge and corinthians_section and has_team_term
 
     return False
